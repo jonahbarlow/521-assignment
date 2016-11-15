@@ -220,6 +220,12 @@ input[type="search"] {
   margin: 0 auto;
 }
 
+/* Item page */
+#item {
+  width: 200px;
+  height: 300px;
+}
+
 /* Cart */
 ul.dropdown-cart{
     min-width:250px;
