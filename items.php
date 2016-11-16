@@ -83,7 +83,7 @@ while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
 
     $addto = "<div class='col-md-3 col-xs-6 text-center img imgWrap'>
               <a href='product.php?id={$col_value}'>
-              <img src='../images/{$stringurl}' alt='None' style='width:200;height:300'></a></div>";
+              <img src='../images/{$stringurl}' alt='None' style='width:200;height:300;padding-top:20px;'></a></div>";
 
     $imagerows .= $addto;
   }
